@@ -1,0 +1,15 @@
+D:\NetCoreAPI\Net_Core_API\NewApp\bin\Debug\net10.0\NewApp.exe
+D:\NetCoreAPI\Net_Core_API\NewApp\bin\Debug\net10.0\NewApp.deps.json
+D:\NetCoreAPI\Net_Core_API\NewApp\bin\Debug\net10.0\NewApp.runtimeconfig.json
+D:\NetCoreAPI\Net_Core_API\NewApp\bin\Debug\net10.0\NewApp.dll
+D:\NetCoreAPI\Net_Core_API\NewApp\bin\Debug\net10.0\NewApp.pdb
+D:\NetCoreAPI\Net_Core_API\NewApp\obj\Debug\net10.0\NewApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\NetCoreAPI\Net_Core_API\NewApp\obj\Debug\net10.0\NewApp.AssemblyInfoInputs.cache
+D:\NetCoreAPI\Net_Core_API\NewApp\obj\Debug\net10.0\NewApp.AssemblyInfo.cs
+D:\NetCoreAPI\Net_Core_API\NewApp\obj\Debug\net10.0\NewApp.csproj.CoreCompileInputs.cache
+D:\NetCoreAPI\Net_Core_API\NewApp\obj\Debug\net10.0\NewApp.sourcelink.json
+D:\NetCoreAPI\Net_Core_API\NewApp\obj\Debug\net10.0\NewApp.dll
+D:\NetCoreAPI\Net_Core_API\NewApp\obj\Debug\net10.0\refint\NewApp.dll
+D:\NetCoreAPI\Net_Core_API\NewApp\obj\Debug\net10.0\NewApp.pdb
+D:\NetCoreAPI\Net_Core_API\NewApp\obj\Debug\net10.0\NewApp.genruntimeconfig.cache
+D:\NetCoreAPI\Net_Core_API\NewApp\obj\Debug\net10.0\ref\NewApp.dll
