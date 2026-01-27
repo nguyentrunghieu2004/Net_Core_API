@@ -1,28 +1,60 @@
-# Cấu trúc thư mục của dự án .Net MVC
+# I. Cấu trúc thư mục dự án ASP.NET MVC Controllers/
 ###
-    Cấu trúc theo thứ tự : Controllers ->Views->Models
-        +Controllers: Controller là một thành phần quan trọng trong mô hình MVC (Model – View – Controller).
-        Controller có nhiệm vụ:
-        
-        Nhận yêu cầu (request) từ người dùng thông qua URL
-        
-        Xử lý logic của ứng dụng
-        
-        Trả về View (giao diện) hoặc dữ liệu cho người dùng
-        
-        Controller đóng vai trò trung gian kết nối giữa Model và View.
-        +view: View là thành phần trong mô hình MVC có nhiệm vụ hiển thị giao diện người dùng.
-        View nhận dữ liệu từ Controller và trình bày dữ liệu đó dưới dạng HTML để trả về trình duyệt.
-        
-        View không chứa logic xử lý nghiệp vụ, mà chỉ tập trung vào việc hiển thị.
-        +Models: Model là thành phần trong mô hình MVC (Model – View – Controller) dùng để:
+    1.Controllers/
 
-        Biểu diễn dữ liệu của ứng dụng
+    + Chứa các Controller
+    + Nhận request từ người dùng, xử lý logic và trả về View
+    Ví dụ: HomeController.cs, DemoController.cs
+
+    2.Models/
+
+    + Chứa các Model (lớp dữ liệu)
+    + Đại diện cho dữ liệu + nghiệp vụ
+    Ví dụ: Student.cs, Product.cs
+
+    3.Views/
+
+    + Chứa các View (.cshtml) để hiển thị giao diện
+    + Cấu trúc bên trong:
+    + Views/Home/Index.cshtml
+    + Views/Demo/Index.cshtml
+    + Views/Shared/ → layout chung, _Layout.cshtml, Error.cshtml
+
+    4.wwwroot/
+
+    + Chứa file tĩnh
+    + Gồm:
+    - css/
+    - js/
+    - images/
+
+    + Không xử lý logic, chỉ để hiển thị
+
+    5. Properties/
+
+    +Chứa cấu hình nội bộ của project
+    Ví dụ: launchSettings.json
+
+    6. appsettings.json
+
+    + File cấu hình ứng dụng
+    + Chuỗi kết nối DB, cấu hình môi trường
+
+    7.Program.cs
+
+    + Điểm khởi động ứng dụng
+    + Cấu hình:
+    -MVC
+    - Route
+    - Middleware
+
+    8.csproj
+
+    + File cấu hình project
+    + Quản lý package, framework, build
+
+    9.bin/ & obj/
+
+    + Thư mục sinh ra khi build/run
+    + Không chỉnh sửa thủ công
 ###
-        
-        Chứa logic liên quan đến dữ liệu
-        
-        Kết nối và làm việc với cơ sở dữ liệu (nếu có)
-        
-        Model không xử lý giao diện và không nhận request trực tiếp từ người dùng.
-                    
