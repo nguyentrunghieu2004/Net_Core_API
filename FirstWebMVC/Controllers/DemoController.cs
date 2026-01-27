@@ -6,7 +6,11 @@ namespace DemoMVC.Controllers
     {
         public IActionResult Index()
         {
-            ViewBag.Message = "Hello Nguyễn Trung Hiếu - MSV: 2221050691";
+            ViewBag.FullName = "Hello Nguyễn Trung Hiếu 2221050691";
+            return View();
+        }
+        public IActionResult Demo()
+        {
             return View();
         }
     }
